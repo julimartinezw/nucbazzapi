@@ -1,0 +1,116 @@
+
+:root{
+    --background: #252525
+    --primary: #ffa400
+    --secondary: #fc2933
+    --text--white: #ffffff
+    --botton: #ffa100#fb103d
+    --backgroundds: black
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    list-style-type: none;
+    
+}
+
+/*HEADER*/ 
+
+header{
+    background-color: black ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 30px 0px 30px;
+    position: fixed;
+    top: 0;
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+
+.navbar-list{
+    gap: 30px;
+}
+
+/*MAIN*/
+main {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text--white);
+    
+}
+
+/*HERO*/
+
+#hero{
+    display: flex;
+    padding: 70px 0px;
+    width: 90px;
+    justify-content: space-around;
+
+}
+
+.hero-presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+
+}
+.hero-presentation h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: var(--text--white);
+}
+
+.hero-presentation p {
+    font-weight: 300;
+    font-size: 14px;
+    max-width: 350px;
+    color: var(--text);
+    
+
+}
+
+.button-container{
+    display: flex;
+    gap: 15px;
+
+}
+
+.button-container a{
+    text-decoration: none;
+    border: 3px solid var(--botton);
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+
+.ver-mas{
+    background-color: var(--botton);
+    color: var(--text);
+
+}
+
+.hero-img{
+    width: 450px;
+}
