@@ -6,118 +6,236 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo Practico 5</title>
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+
 </head>
 <body>
     <header class="header">
-        <img src="assets/NAVBAR IMG/nucbazappiicon 1.png" alt="logo"/>
+        <img src="./assets/NAVBAR IMG/nucbazappiicon 1.png" alt="logo" class="logo">
         <nav class="navbar">
             <ul class="navbar-list">
-                <li> <img src="assets/NAVBAR IMG/Home.png" alt="home"><a href="hero">home</a></li>
-                <li> <img src="assets/NAVBAR IMG/Buy.png" alt="carrito"><a href="about"></a></li>
-                <li> <img src="assets/NAVBAR IMG/Profile.png" alt="perfil"><a href="word"></a></li>
+                <li class="navbar-home">
+                    <img src="./assets/NAVBAR IMG/Home.png" alt="home" class="home">
+                    <a href="#">Home</a>
+                </li>
+                <li class="navbar-cart">
+                    <p>7</p>
+                    <img src="./assets/NAVBAR IMG/Buy.png" alt="carrito" class="cart">
+                    <a href="#"></a>
+                </li>
+                <li class="navbar-profile"> 
+                    <img src="./assets/NAVBAR IMG/Profile.png" alt="perfil" class="profile">
+                    <a href="#"></a>
+                </li>
             </ul>
         </nav>
+ 
     </header>
     <main>
-        <section id="hero"> 
-            <div class="hero-presentation">
-                <h1 color="#ffffff"> Si tenes Zappi, <span>tenes Nucba.</span></h1>
-                <p>
-                    Busca lo que quieras y Nucba te quedes sin Comida.
-                </p>
-                <div class="button-container">
-                    <button><a href="#" class="ver-mas">Ver mas</a></button>
+        <section class="hero"> 
+                <div class="hero-info">
+                    <h1>Si tenes Zappi, tenes Nucba.</h1>
+                    <p> Busca lo que quieras y Nucba te quedes sin Comida.</p>
+                    <a href="#">VER MÁS</a>
                 </div>
-            </div>
-            <img src="assets/Pizzas.png" alt="pizzas" class="hero-img"/>
-            
-
+                <img src="./assets/Pizzas.png" alt="pizzas" class="hero-img"/>          
         </section>
+
         <section id="info">
+            <h2>Hoy te recomendamos</h2>
+            <div class="info-recomendacion">
+                    <div class="card">
+                        <img src="./assets/Card-1/Photo Menu.png" alt="imagen-menu">
+                        <div class="info-food">
+                            <h3>Bennazianna</h3>
+                            <p>La más completa</p>
+                            <span>$3650</span>
+                        </div>
+                        <div class="agregar-boton">
+                            <button class="button">Agregar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/Card-1/Photo Menu (1).png" alt="imagen-menu">
+                        <div class="info-food">
+                            <h3>Tronco-Pizza</h3>
+                            <p>Para todo el día</p>
+                            <span>$870</span>
+                        </div>
+                        <div class="agregar-boton">
+                            <button class="button">Agregar</button>
+                        </div>
+                    </div>   
+                    <div class="card">
+                        <img src="./assets/Card-1/Photo Menu (2).png" alt="imagen-menu">
+                        <div class="info-food">
+                            <h3>Papas|Provenzal</h3>
+                            <p>Van como piña</p>
+                            <span>$370</span>
+                        </div>
+                        <div class="agregar-boton">
+                            <button class="button">Agregar</button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section class="categorie">
+            <h3>Categorías</h3>
+            <div class="categorie-card">
+                <div class="food">
+                    <img src="./assets/Card-2/image 34.png" alt="icono-categoria" class="icono-food">
+                    <p>Pizzas</p>
+                    <a href="#"></a>
+                </div>
+
+                <div class="food">
+                    <img src="./assets/Card-2/burger 1.png" alt="icono-categoria">
+                    <p>Hamburguesas</p>
+                    <a href="#"></a>
+                </div>
+
+                <div class="food">
+                    <img src="./assets/Card-2/fries 2.png" alt="icono-categoria">
+                    <p>Napapuki</p>
+                    <a href="#"></a>
+                </div>
+
+                <div class="food">
+                    <img src="./assets/Card-2/pizza 2.png" alt="icono-categoria">
+                    <p>Individuales</p>
+                    <a href="#"></a>
+                </div>
+
+                <div class="food">
+                    <img src="./assets/Card-2/buritto 1.png" alt="icono-categoria">
+                    <p>Wraps</p>
+                    <a href="#"></a>
+                </div>
+
+                <div class="food">
+                    <img src="./assets/Card-2/taco 1.png" alt="icono-categoria">
+                    <p>Mexican Food</p>
+                    <a href="#"></a>
+                </div>
+
+                <div class="food">
+                    <img src="./assets/Card-2/float 1.png" alt="icono-categoria">
+                    <p>Batidukis</p>
+                    <a href="#"></a>
+                </div>                
+            </div>            
+        </section>
+
+        <section id="popular">
             <h2>Los mas populares</h2>
             <div class="info-card-container">
-              <div class="info-card">
-                <img src="./assets/Card-3/Photo Menu.png" alt="Lamrpit">
-                <h3>La Mr. Pit</h3>
-                <p>Solo para entendidos</p>
-                <p> <span>$350</span> </p>
-                <a href="#" class="Agregar">Agregar</a>
-                    </div>
-                
-              
                 <div class="info-card">
-                <img src="./assets/Card-3/Photo Menu (1).png" alt="Qjamone">
-                <h3>¡Q' Jamone!</h3>
-                <p>Con jamon crudo</p>
-                <p><span>$350</span></p>
-                <a href="#" class="Agregar">Agregar</a>
+                    <img src="./assets/Card-3/Photo Menu.png" alt="Lamrpit">
+                    <div class="detalle">
+                        <h3>La Mr. Pit</h3>
+                        <p>Solo para entendidos</p>
+                        <div class="top-info">
+                            <span>$ 350</span>
+                            <button>Agregar</button>
+                        </div>
+                    </div>
                 </div>
-            
-              
-            <div class="info-card">
-                <img src="./assets/Card-3/Photo Menu (2).png" alt="Charly">
-                <h3>La Charly Garcia</h3>
-                <p>¡BASTA!</p>
-                <p><span>$380</span></p>
-                <a href="#" class="Agregar">Agregar</a>
-                    </div>
-                
-              
+
                 <div class="info-card">
-                <img src="./assets/Card-3/Photo Menu (3).png" alt="Lamaradona">
-                <h3>La Maradona</h3>
-                <p>¡Eterna!</p>
-                <p><span>$450</span></p>
-                <a href="#" class="Agregar">Agregar</a>
-                </div> 
-              
+                    <img src="./assets/Card-3/Photo Menu (1).png" alt="Qjamone">
+                    <div class="detalle">
+                        <h3>¡Q' Jamone!</h3>
+                        <p>Con jamon crudo</p>
+                        <div class="top-info">
+                            <span>$ 350</span>
+                            <button>Agregar</button>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="info-card">
-                <img src="./assets/Card-3/Photo Menu (4).png" alt="Lapicantovich">
-                <h3>Picantovich</h3>
-                <p>Pica 2 veces</p>
-                <p><span>$750</span></p>
-                <a href="#" class="Agregar">Agregar</a>
+                    <img src="./assets/Card-3/Photo Menu (2).png" alt="Charly">
+                    <div class="detalle">
+                        <h3>La Charly Garcia</h3>
+                        <p>¡BASTA!</p>
+                        <div class="top-info">
+                            <span>$ 380</span>
+                            <button>Agregar</button>
+                        </div>
                     </div>
+                </div>
 
-              
-              <div class="info-card">
-                <img src="./assets/Card-3/Photo Menu (5).png" alt="Hasbulla">
-                <h3>La Hasbulla</h3>
-                <p>En honor al 1</p>
-                <p><span>$990</span></p>
-                <a href="#" class="Agregar">Agregar</a>
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (3).png" alt="Lamaradona">
+                    <div class="detalle">
+                        <h3>La Maradona</h3>
+                        <p>¡Eterna!</p>
+                        <div class="top-info">
+                            <span>$ 450</span>
+                            <button>Agregar</button>
+                        </div>
                     </div>
+                </div>
 
-              
-              <div class="info-card">
-                <img src="./assets/Card-3/Photo Menu (6).png" alt="Leomessi">
-                <h3>Leo Messi</h3>
-                <p>¡De pie señores!</p>
-                <p><span>$10</span></p>
-                 <a href="#" class="Agregar">Agregar</a>
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (4).png" alt="Lapicantovich">
+                    <div class="detalle">
+                        <h3>Picantovich</h3>
+                        <p>Pica 2 veces</p>
+                        <div class="top-info">
+                            <span>$ 750</span>
+                            <button>Agregar</button>
+                        </div>
                     </div>
+                </div>
 
-              
-              <div class="info-card">
-                <img src="./assets/Card-3/Photo Menu (8).png" alt="NickGi">
-                <h3>Nick Gi</h3>
-                <p>La que desaparece</p>
-                <p> <span>Gratis</span></p>
-                <a href="#" class="Agregar">Agregar</a>
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (5).png" alt="Hasbulla">
+                    <div class="detalle">
+                        <h3>La Hasbulla</h3>
+                        <p>En honor al 1</p>
+                        <div class="top-info">
+                            <span>$ 990</span>
+                            <button>Agregar</button>
+                        </div>
                     </div>
+                </div>
 
-              </div>
-               
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (6).png" alt="Leomessi">
+                    <div class="detalle">
+                        <h3>Leo Messi</h3>
+                        <p>¡De pie señores!</p>
+                        <div class="top-info">
+                            <span>$ 10</span>
+                            <button>Agregar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (8).png" alt="Leomessi">
+                    <div class="detalle">
+                        <h3>Nick Gi</h3>
+                        <p>La que desaparece</p>
+                        <div class="top-info">
+                            <span>$ Gratis</span>
+                            <button>Agregar</button>
+                        </div>
+                    </div>
+                </div>               
+ 
             </div>
 
         </section>
     </main>
  <footer>
     <div>
-       <ul class="footer-links">
-        <li><a href="#"></a>Terminos de Uso</li>
-        <li><a href="#"></a>Trabaja con Nosotros</li>
-        <li><a href="#"></a>Soporte</li>
+        <ul class="footer-links">
+            <li><a href="#">Términos de Uso</a></li>
+            <li><a href="#">Trabajá con Nosotros</a></li>
+            <li><a href="#">Soporte</a></li>
         </ul>
     </div>
     <p>Hecho con ❤️ en <span>NUCBAZAPPI</span></p>
