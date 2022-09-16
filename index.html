@@ -4,47 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio Grupal</title>
-    <link rel="stylesheet" href="./Style.css">
-    <link rel="stylesheet" href="./mediqueries.css">
+    <title>Trabajo Practico 5</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+
 </head>
 <body>
-    <header>
-        <img src="./NAVBAR IMG/nucbazappiicon 1.png" alt="logo" class="logo">
+    <header class="header">
+        <img src="./assets/NAVBAR IMG/nucbazappiicon 1.png" alt="logo" class="logo">
         <nav class="navbar">
-            <div class="navbar-home">
-                <img src="./NAVBAR IMG/Home.png" alt="icono-home">
-                <li>
+            <ul class="navbar-list">
+                <li class="navbar-home">
+                    <img src="./assets/NAVBAR IMG/Home.png" alt="home" class="home">
                     <a href="#">Home</a>
                 </li>
-            </div>
-            <div class="navbar-cart">
-                <p>7</p>
-                <img src="./NAVBAR IMG/Buy.png" alt="cart">
-            </div>            
-            <div class="navbar-profile">
-                <img src="./NAVBAR IMG/Profile.png" alt="profile">
-            </div>
+                <li class="navbar-cart">
+                    <p>7</p>
+                    <img src="./assets/NAVBAR IMG/Buy.png" alt="carrito" class="cart">
+                    <a href="#"></a>
+                </li>
+                <li class="navbar-profile"> 
+                    <img src="./assets/NAVBAR IMG/Profile.png" alt="perfil" class="profile">
+                    <a href="#"></a>
+                </li>
+            </ul>
         </nav>
-
+ 
     </header>
-
     <main>
-        <section class="hero">
-            <div class="hero-info">
-                <h1>Si tenes Zappi, tenes Nucba.</h1>
-                <p>Buscá lo que quieras y nucba te quedes sin comida.</p>
-                <a href="#">VER MÁS</a>
-            </div>
-            <img src="./Pizzas.png" alt="img-pizzas" class="img-pizza">
+        <section class="hero"> 
+                <div class="hero-info">
+                    <h1>Si tenes Zappi, tenes Nucba.</h1>
+                    <p> Busca lo que quieras y Nucba te quedes sin Comida.</p>
+                    <a href="#">VER MÁS</a>
+                </div>
+                <img src="./assets/Pizzas.png" alt="pizzas" class="hero-img"/>          
         </section>
-        
 
         <section id="info">
             <h2>Hoy te recomendamos</h2>
-            <div class="info-card">
+            <div class="info-recomendacion">
                     <div class="card">
-                        <img src="./Card-1/Photo Menu.png" alt="imagen-menu">
+                        <img src="./assets/Card-1/Photo Menu.png" alt="imagen-menu">
                         <div class="info-food">
                             <h3>Bennazianna</h3>
                             <p>La más completa</p>
@@ -55,7 +56,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="./Card-1/Photo Menu (1).png" alt="imagen-menu">
+                        <img src="./assets/Card-1/Photo Menu (1).png" alt="imagen-menu">
                         <div class="info-food">
                             <h3>Tronco-Pizza</h3>
                             <p>Para todo el día</p>
@@ -66,7 +67,7 @@
                         </div>
                     </div>   
                     <div class="card">
-                        <img src="./Card-1/Photo Menu (2).png" alt="imagen-menu">
+                        <img src="./assets/Card-1/Photo Menu (2).png" alt="imagen-menu">
                         <div class="info-food">
                             <h3>Papas|Provenzal</h3>
                             <p>Van como piña</p>
@@ -83,141 +84,138 @@
             <h3>Categorías</h3>
             <div class="categorie-card">
                 <div class="food">
-                    <img src="./Card-2/image 34.png" alt="icono-categoria" class="icono-food">
+                    <img src="./assets/Card-2/image 34.png" alt="icono-categoria" class="icono-food">
                     <p>Pizzas</p>
                     <a href="#"></a>
                 </div>
 
                 <div class="food">
-                    <img src="./Card-2/burger 1.png" alt="icono-categoria">
+                    <img src="./assets/Card-2/burger 1.png" alt="icono-categoria">
                     <p>Hamburguesas</p>
                     <a href="#"></a>
-
                 </div>
 
                 <div class="food">
-                    <img src="./Card-2/fries 2.png" alt="icono-categoria">
+                    <img src="./assets/Card-2/fries 2.png" alt="icono-categoria">
                     <p>Napapuki</p>
                     <a href="#"></a>
-
                 </div>
 
                 <div class="food">
-                    <img src="./Card-2/pizza 2.png" alt="icono-categoria">
+                    <img src="./assets/Card-2/pizza 2.png" alt="icono-categoria">
                     <p>Individuales</p>
                     <a href="#"></a>
                 </div>
 
                 <div class="food">
-                    <img src="./Card-2/buritto 1.png" alt="icono-categoria">
+                    <img src="./assets/Card-2/buritto 1.png" alt="icono-categoria">
                     <p>Wraps</p>
                     <a href="#"></a>
                 </div>
 
                 <div class="food">
-                    <img src="./Card-2/taco 1.png" alt="icono-categoria">
+                    <img src="./assets/Card-2/taco 1.png" alt="icono-categoria">
                     <p>Mexican Food</p>
                     <a href="#"></a>
                 </div>
 
                 <div class="food">
-                    <img src="./Card-2/float 1.png" alt="icono-categoria">
+                    <img src="./assets/Card-2/float 1.png" alt="icono-categoria">
                     <p>Batidukis</p>
                     <a href="#"></a>
                 </div>                
-            </div>
-            
+            </div>            
         </section>
 
-        <section class="popular">
-            <h2>Los más populares</h2>
-            <div class="menu-cards">
-                <div class="menu-info">
-                    <img src="./Card-3/Photo Menu.png" alt="photo-menu">
+        <section id="popular">
+            <h2>Los mas populares</h2>
+            <div class="info-card-container">
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu.png" alt="Lamrpit">
                     <div class="detalle">
                         <h3>La Mr. Pit</h3>
-                        <p>Solo para expertos</p>
+                        <p>Solo para entendidos</p>
                         <div class="top-info">
-                            <span>$350</span>
+                            <span>$ 350</span>
                             <button>Agregar</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="menu-info">
-                    <img src="./Card-3/Photo Menu (1).png" alt="photo-menu">
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (1).png" alt="Qjamone">
                     <div class="detalle">
-                        <h3>¡Q'Jamone!</h3>
-                        <p>c/jamón crudo</p>
+                        <h3>¡Q' Jamone!</h3>
+                        <p>Con jamon crudo</p>
                         <div class="top-info">
-                            <span>$350</span>
+                            <span>$ 350</span>
                             <button>Agregar</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="menu-info">
-                    <img src="./Card-3/Photo Menu (2).png" alt="photo-menu">
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (2).png" alt="Charly">
                     <div class="detalle">
-                        <h3>La Charly García</h3>
+                        <h3>La Charly Garcia</h3>
                         <p>¡BASTA!</p>
                         <div class="top-info">
-                            <span>$380</span>
+                            <span>$ 380</span>
                             <button>Agregar</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="menu-info">
-                    <img src="./Card-3/Photo Menu (3).png" alt="photo-menu">
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (3).png" alt="Lamaradona">
                     <div class="detalle">
                         <h3>La Maradona</h3>
                         <p>¡Eterna!</p>
                         <div class="top-info">
-                            <span>$450</span>
+                            <span>$ 450</span>
                             <button>Agregar</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="menu-info">
-                    <img src="./Card-3/Photo Menu (4).png" alt="photo-menu">
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (4).png" alt="Lapicantovich">
                     <div class="detalle">
                         <h3>Picantovich</h3>
                         <p>Pica 2 veces</p>
                         <div class="top-info">
-                            <span>$750</span>
+                            <span>$ 750</span>
                             <button>Agregar</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="menu-info">
-                    <img src="./Card-3/Photo Menu (5).png" alt="photo-menu">
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (5).png" alt="Hasbulla">
                     <div class="detalle">
                         <h3>La Hasbulla</h3>
                         <p>En honor al 1</p>
                         <div class="top-info">
-                            <span>$990</span>
+                            <span>$ 990</span>
                             <button>Agregar</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="menu-info">
-                    <img src="./Card-3/Photo Menu (6).png" alt="photo-menu">
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (6).png" alt="Leomessi">
                     <div class="detalle">
                         <h3>Leo Messi</h3>
-                        <p>¡De pié señores!</p>
+                        <p>¡De pie señores!</p>
                         <div class="top-info">
-                            <span>$10</span>
+                            <span>$ 10</span>
                             <button>Agregar</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="menu-info">
-                    <img src="./Card-3/Photo Menu (8).png" alt="photo-menu">
+                <div class="info-card">
+                    <img src="./assets/Card-3/Photo Menu (8).png" alt="Leomessi">
                     <div class="detalle">
                         <h3>Nick Gi</h3>
                         <p>La que desaparece</p>
@@ -226,21 +224,21 @@
                             <button>Agregar</button>
                         </div>
                     </div>
-                </div>
+                </div>               
+ 
             </div>
+
         </section>
     </main>
-    <footer>
-        <div>
-            <ul class="footer-links">
-                <li><a href="#">Términos de Uso</a></li>
-                <li><a href="#">Trabajá con Nosotros</a></li>
-                <li><a href="#">Soporte</a></li>
-            </ul>
-        </div>
-        <p>Hecho con ❤️ en<span>NUCBAZAPPI</span></p>
-    </footer>
-    
-
+ <footer>
+    <div>
+        <ul class="footer-links">
+            <li><a href="#">Términos de Uso</a></li>
+            <li><a href="#">Trabajá con Nosotros</a></li>
+            <li><a href="#">Soporte</a></li>
+        </ul>
+    </div>
+    <p>Hecho con ❤️ en <span>NUCBAZAPPI</span></p>
+ </footer>   
 </body>
 </html>

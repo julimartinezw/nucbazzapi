@@ -1,0 +1,90 @@
+@media (max-width: 992px) {
+
+
+    .navbar{
+        position: absolute;
+        left: 20%;
+        right: 5%;
+        width: 90%;
+        padding: 4px;
+    }
+
+
+
+    .hero-info{
+        max-width: 120%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .hero-info h1{
+        max-width: 500px;
+        min-width: unset;
+        line-height: 100px;
+        padding: 0px 0px 30px;
+    }
+
+    .hero-info p{
+        line-height: 30px;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    #info h2{
+        text-align: center;
+        width: 80%;
+    }
+
+    #info{
+        align-items: center;
+    }
+   
+    .info-recomendacion{
+        gap: 35px;
+    }
+
+    .categorie{
+        max-width: 120%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;     
+    }
+
+    .categorie h3{
+        text-align: center;
+        width: 80%;
+    }
+
+    .categorie-card{
+        max-width: 80%;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #popular{
+        max-width: 120%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .info-card-container{
+        gap: 50px;
+    }
+
+    .info-card h3{
+        display: flex;
+    }
+
+    .info-card p{
+        display: flex;
+    }
+
+
+}
